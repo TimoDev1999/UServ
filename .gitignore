@@ -1,0 +1,59 @@
+
+# Игнорируем системные файлы и папки
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+
+# Игнорируем папки пользователя
+/Application Data/
+/Cookies/
+/Local Settings/
+/NetHood/
+/PrintHood/
+/Recent/
+/SendTo/
+/╨│╨╗╨░╨▓╨╜╨╛╨╡ ╨╝╨╡╨╜╤О/
+/╨Ь╨╛╨╕ ╨┤╨╛╨║╤Г╨╝╨╡╨╜╤В╤Л/
+/╨и╨░╨▒╨╗╨╛╨╜╤Л/
+
+# Игнорируем проектные папки, которые вам не нужны
+/3D Objects/
+/AppData/
+/Contacts/
+/Desktop/
+/Documents/
+/Downloads/
+/Dropbox/
+/Favorites/
+/Links/
+/Music/
+/OneDrive/
+/OpenVPN/
+/Pictures/
+/Saved Games/
+/Searches/
+/Videos/
+
+# Игнорируем конфигурационные файлы и временные файлы
+.bash_history
+.dlv/
+.docker/
+/.erlang.cookie
+.gitconfig
+.lesshst
+.node_repl_history
+.ssh/
+.vscode/
+
+# Игнорируем другие файлы и папки, которые вам не нужны
+NTUSER.DAT
+NTUSER.DAT{*}.TM.blf
+NTUSER.DAT{*}.TMContainer*.regtrans-ms
+ntuser.dat.LOG1
+ntuser.dat.LOG2
+ntuser.ini
+
+# Исключаем файлы и папки, специфичные для вашего проекта
+/go/
+
